@@ -1,0 +1,172 @@
+:root{
+    --color-ppal:#2D2D2D;
+    --color-secundario:#FFFFFF;
+    --color-terciario: #3A3A3A;
+    --color-secundario2:#DDDDDD;
+    --color-insignia: #0095DB;
+    --color-rojo: #FF6666;
+    
+}
+
+.color-insignia
+{color:var(--color-insignia)!important;}
+.bg-insignia{
+    background: var(--color-insignia); 
+}
+.bg-ppal{
+    background: var(--color-ppal);
+}
+.bg-utn{
+    background: var(--color-ppal) url("../images/layout/bg_header.png") repeat;  
+}
+.border-double{
+    border-bottom: 5px double var(--color-terciario);
+}
+
+/* Logo y TItulo UTN */
+.head-title{
+    line-height: 30px;
+    vertical-align: top;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-bottom:10px;
+}
+.head-title .logo1{
+    display: inline-block;
+    margin-right:5px;
+    vertical-align: top;
+}
+img.logoutn{width:45px;}
+
+.head-title .title{
+    display: inline-block;
+    color:#FFFFFF;
+}
+.title h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 4.5rem;
+    line-height: 30px;
+}
+.head-title .subtitle{
+    font-size: 1.2rem;
+}
+
+
+
+/** ESTILOS PARA FORMULARIOS**/
+form{ padding:10px;}
+fieldset{
+    /*border: 5px solid rgba(0, 149, 219,0.3);*/
+    border: 5px solid #DDDDDD;
+    background: #FFFFFF;
+    padding: 15px;
+    border-radius: 5px;
+    margin:5px;
+}
+legend{
+    color:var(--color-ppal);
+    font-weight: bold;
+    display: block;
+    position: relative;
+    text-align: center;
+    background: var(--color-insignia);
+    background: var(--color-secundario2);
+    border:1px solid #FFFFFF;
+    border-radius: 10px;
+    padding:5px;
+}
+
+.form-group>label{
+    width: 100%;
+    color: rgba(0,0,0,.8);
+    -webkit-transform: scale(.923,.923);
+    -ms-transform: scale(.923,.923);
+    transform: scale(.923,.923);
+    -webkit-transform-origin: left;
+    -ms-transform-origin: left;
+    transform-origin: left;
+}
+
+
+
+
+/***********************************************************************************************/
+/** CLASE SBREESCRITAS DEL FUSE **/
+
+
+/** HEADER **/
+.page-header-utn{
+    height: 6.4rem;
+    min-height: 6.4rem; 
+}
+.page-header-utn h1{
+    color:#FFFFFF;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+/**toolbar superior */
+#toolbar.h-p{
+    /* height: 6.4rem;
+     min-height: 6.4rem;
+     */
+     height: 8rem;
+     min-height: 8rem;
+ }
+ .layout.layout-vertical.layout-below-toolbar #wrapper>.content-wrapper>.content{
+     margin-top:0;
+ }
+ #toolbar .search-button{
+    height: 4rem!important;
+    width: 4rem!important;
+    margin-right:5px;
+    background-color:#FFFFFF!important;
+
+}
+
+
+ /*** BARRA LATERAL / MENU  **/
+/** Oculta la frase UTN Facultad Regional Rosario
+  * cuando se cierra el toolbar
+  * Importante: no sobreescribe una clase existente
+  */
+  body.fuse-aside-collapsed #aside .aside-content-wrapper>.aside-content .head-title .title{
+    display: none;
+}
+
+/** caja contenedora del logo Bolsa de Trabajo*/
+.layout #wrapper>.aside>.aside-content-wrapper>.aside-content>.aside-toolbar{
+    height: 6.4rem;
+    min-height: 6.4rem; 
+    color:#FFFFFF;
+    font-weight: bolder;
+}
+
+/** contenedor izquierdo del menu ppal*/
+.layout.layout-vertical.layout-above-toolbar #wrapper #aside>.aside-content-wrapper>.aside-content {
+    margin-top: 0px;
+}
+
+.layout #wrapper>.aside>.aside-content-wrapper>.aside-content>.aside-toolbar .logo .logo-icon{
+    background: transparent;
+    width: 50px;
+    min-width: 32px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.layout #wrapper>.aside>.aside-content-wrapper>.aside-content>.aside-toolbar .logo .logo-text {
+    margin-left: 16px;
+    font-size: 1.6rem;
+}
+
+
+/***********************************************************************************************/
+
+
+
+
+
+
