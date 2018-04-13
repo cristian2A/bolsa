@@ -16,4 +16,10 @@ class EmpresaController extends Controller
         return view('admin.empresas-form-alta');
     }
 
+
+    public function listarContactosEmpresas()
+    {
+        return view('admin.contactos-listado');
+    }
+
 }

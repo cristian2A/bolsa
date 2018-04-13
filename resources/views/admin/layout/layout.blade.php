@@ -106,7 +106,12 @@
                                 </div>
                                 
                                 <!-- / HEADER -->
-
+                                <nav class="breadcrumb">
+                                    <a class="breadcrumb-item" href="#">Home</a>
+                                    <a class="breadcrumb-item" href="#">Library</a>
+                                    <a class="breadcrumb-item" href="#">Data</a>
+                                    <span class="breadcrumb-item active">Bootstrap</span>
+                                </nav>
                                 <!-- CONTENT -->
                                 <div class="page-content p-8">
                                 @yield('contenido')

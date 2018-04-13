@@ -2,16 +2,18 @@
 @section('title','BdT: Admin')
 
 @section('section_title')
+
 <h1>TABLA LISTADO DE EMPRESAS</h1>
+
+
+
 @endsection
 @section('section_subtitle','Paguen Empresas no sean tacañas')
 
 @section('contenido')
-                            <!-- CONTENT -->
-                            <div class="page-content">
-
-                                
-                                <div class="content-wrapper">
+<!-- CONTENT -->
+<div class="page-content">
+<div class="content-wrapper">
 
 <div class="content">
     <div class="doc data-table-doc page-layout simple full-width">

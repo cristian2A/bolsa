@@ -27,3 +27,4 @@ Route::get('/admin', function () {
     /** SUBSECCION EMPRESAS */
     Route::get('/admin/empresas', 'EmpresaController@listar');
     Route::get('/admin/empresas/nueva', 'EmpresaController@crear'); 
+    Route::get('/admin/empresas/contactos', 'EmpresaController@listarContactosEmpresas'); 
